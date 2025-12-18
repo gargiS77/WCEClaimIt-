@@ -1,0 +1,78 @@
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+   
+}
+.head{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size:40px;
+    background-color: rgb(180, 175, 175);
+}
+.heading{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/145/984/original/office-and-school-stationery-seamless-background-pattern-free-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    opacity: 0.7;
+    z-index:1;
+    margin-top: 0px;
+    }
+h1{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 60px;
+padding-bottom:0px;
+margin-bottom: 0;
+margin-top: 0px;
+font-size: 100px;
+z-index: 1;
+
+}    
+h2{
+    text-align: center;
+    background-color: #faf6f6;
+    font-size: 30px;
+}
+button{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: rgb(252, 249, 249);
+    background-color: blue;
+    border: none;
+    border-radius:3px;
+    padding-top: 8px;
+    width: 80%;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+   
+
+}
+button:hover{
+    background-color: rgb(25, 18, 91);
+}
+.input{
+   padding: 20px; 
+}
+textarea {
+    flex-grow: 1; /* Allows textarea to take available space */
+}
+input[type="image"]{
+    padding: 10px;
+    width:300px;
+    height: 40px;
+    border: black 2px;
+}
+.radio-group {
+  display: flex;
+  gap: 20px; /* Creates spacing between buttons */
+  align-items: center;
+}
